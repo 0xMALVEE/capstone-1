@@ -245,7 +245,64 @@ nav .second {
   }
 }
 
+.phone-menu a {
+  text-decoration: none;
+}
+
+.phone-menu {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.mobile-nav ul {
+  list-style-type: none;
+}
+
+.mobile-nav ul li {
+  margin-top: 20px;
+}
+
+.mobile-nav ul li a {
+  text-decoration: none;
+  color: white;
+  color: beige;
+  font-family: "cocogoose", serif;
+  font-size: 22px;
+}
+
+.close-btn {
+  position: fixed;
+  text-decoration: none;
+  color: white;
+  top: 10px;
+  left: 10px;
+}
+
+.m-n-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-nav {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: #272a31;
+}
+
 @media screen and (min-width: 768px) {
+  .phone-menu {
+    display: none;
+  }
+
+  .welcome-section .container {
+    width: 60%;
+  }
+
   nav .first {
     background-color: #272a31;
     display: flex;

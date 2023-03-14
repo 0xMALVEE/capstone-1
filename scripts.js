@@ -1,3 +1,26 @@
+const phoneMenu = document.querySelector('.phone-menu');
+const mobileNav = document.querySelector('.mobile-nav');
+const closeBtn = document.querySelector('.close-btn');
+
+phoneMenu.addEventListener('click', (e) => {
+  e.preventDefault();
+  mobileNav.style.display = 'block';
+});
+
+closeBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  mobileNav.style.display = 'none';
+});
+
+const mobileNavLinks = document.querySelector('.mobile-navs-links');
+const navLinks = mobileNavLinks.querySelectorAll('li');
+
+navLinks.forEach((link) => {
+  link.addEventListener('click', () => {
+    mobileNav.style.display = 'none';
+  });
+});
+
 const solosistsData = [
   {
     imgSrc: 'https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/2952568/image/74737f8eff334f61d4cecad0177e733d',
