@@ -6,6 +6,16 @@ body {
   margin: 0;
 }
 
+footer img {
+  width: 250px;
+}
+
+footer p {
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+}
+
 .welcome-section {
   text-align: center;
   background: url("./images/mainbackground.png");
@@ -30,6 +40,7 @@ body {
 }
 
 .about-article {
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,10 +68,6 @@ body {
   width: 20%;
   background-color: #ec5242;
   margin-bottom: 12px;
-}
-
-.about-article {
-  text-align: center;
 }
 
 .about-article img {
@@ -198,9 +205,19 @@ body {
   min-width: 120px;
 }
 
+.about-touch p {
+  margin: 0;
+}
+
 .main-program ul li p {
   font-size: 14px;
   margin: 12px;
+}
+
+.solosist img {
+  width: 160px;
+  height: 130px;
+  box-shadow: 10px 16px #8888883d;
 }
 
 .main-program ul img {
@@ -222,12 +239,6 @@ body {
 
 .soloists {
   margin: 12px;
-}
-
-.solosist img {
-  width: 160px;
-  height: 130px;
-  box-shadow: 10px 16px #8888883d;
 }
 
 .solosist p.ins {
@@ -303,10 +314,6 @@ body {
   font-size: 14px;
 }
 
-.about-touch p {
-  margin: 0;
-}
-
 .welcome-section .about {
   border: 2px solid rgb(235, 229, 229);
   background: #fff;
@@ -324,16 +331,6 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-}
-
-footer img {
-  width: 250px;
-}
-
-footer p {
-  text-align: center;
-  font-family: "lato", sans-serif;
-  font-weight: 100;
 }
 
 nav .first {
@@ -361,15 +358,13 @@ nav .second {
 }
 
 @media screen and (min-width: 768px) {
-
-
   nav .first {
     background-color: #272a31;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30px;
-  } 
+  }
 
   nav .first ul {
     display: flex;
@@ -378,9 +373,18 @@ nav .second {
     list-style-type: none;
   }
 
+  .nav-links a {
+    text-decoration: none;
+  }
+
   nav .first a {
     text-decoration: none;
     color: #d3d3d3;
+  }
+
+  li.concert a {
+    color: #ec5242 !important;
+    font-weight: 700 !important;
   }
 
   nav .first li {
@@ -402,10 +406,6 @@ nav .second {
 
   .nav-links {
     display: flex;
-  }
-
-  .nav-links a {
-    text-decoration: none;
   }
 
   .logo img {
@@ -432,11 +432,6 @@ nav .second {
   li.concert {
     border: #ec5242 2px solid;
     padding: 5px 15px;
-  }
-
-  li.concert a {
-    color: #ec5242 !important;
-    font-weight: 700 !important;
   }
 
   .concerts-info-imgs {

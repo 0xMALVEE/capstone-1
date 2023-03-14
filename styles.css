@@ -104,9 +104,25 @@ body {
   min-width: 120px;
 }
 
+footer p {
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+}
+
 .main-program ul li p {
   font-size: 14px;
   margin: 12px;
+}
+
+footer img {
+  width: 250px;
+}
+
+.solosist img {
+  width: 160px;
+  height: 130px;
+  box-shadow: 10px 16px #8888883d;
 }
 
 .main-program ul img {
@@ -128,12 +144,6 @@ body {
 
 .soloists {
   margin: 12px;
-}
-
-.solosist img {
-  width: 160px;
-  height: 130px;
-  box-shadow: 10px 16px #8888883d;
 }
 
 .solosist p.ins {
@@ -211,16 +221,6 @@ footer {
   flex-wrap: wrap;
 }
 
-footer img {
-  width: 250px;
-}
-
-footer p {
-  text-align: center;
-  font-family: "lato", sans-serif;
-  font-weight: 100;
-}
-
 nav .first {
   display: none;
 }
@@ -246,21 +246,23 @@ nav .second {
 }
 
 @media screen and (min-width: 768px) {
-
-
   nav .first {
     background-color: #272a31;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 30px;
-  } 
+  }
 
   nav .first ul {
     display: flex;
     width: 80%;
     justify-content: flex-end;
     list-style-type: none;
+  }
+
+  .nav-links a {
+    text-decoration: none;
   }
 
   nav .first a {
@@ -289,10 +291,6 @@ nav .second {
     display: flex;
   }
 
-  .nav-links a {
-    text-decoration: none;
-  }
-
   .logo img {
     width: 110px;
   }
@@ -306,6 +304,11 @@ nav .second {
     margin-left: 30px;
   }
 
+  li.concert a {
+    color: #ec5242 !important;
+    font-weight: 700 !important;
+  }
+
   nav .second ul a {
     text-decoration: none;
     font-family: "lato", serif;
@@ -317,10 +320,5 @@ nav .second {
   li.concert {
     border: #ec5242 2px solid;
     padding: 5px 15px;
-  }
-
-  li.concert a {
-    color: #ec5242 !important;
-    font-weight: 700 !important;
   }
 }
