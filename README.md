@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
  <img src="https://raw.githubusercontent.com/0xMALVEE/malvee-portfolio/main/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>M Alvee Portfolio</b></h3>
+  <h3><b>Music Concert</b></h3>
 
 </div>
 
@@ -42,7 +42,6 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -60,10 +59,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Alvee's Portfolio] <a name="about-project"></a>
+# 📖 [Music Concert] <a name="about-project"></a>
 
 
-**[Alvee's Portfolio]** is a...
+**[Music Concert]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -85,15 +84,6 @@ After you're finished please remove all the comments and instructions!
 - **[good design]**
 - **[good graphics]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-Click bellow to view the website live
-
-- [Live Demo Link](https://0xmalvee.github.io/malvee-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
