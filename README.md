@@ -112,7 +112,7 @@ commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/0xMALVEE/malvee-portfolio.git
+  git clone https://github.com/0xMALVEE/capstone-1.git
 ```
 -
 
