@@ -8,6 +8,7 @@ body {
 
 footer img {
   width: 250px;
+  margin-right: 40px;
 }
 
 footer p {
@@ -36,7 +37,7 @@ footer p {
 }
 
 .welcome-section .container {
-  width: 60%;
+  width: 100%;
 }
 
 .about-article {
@@ -93,9 +94,16 @@ footer p {
 
 .concerts-info p {
   font-family: 'Lato', sans-serif;
-  font-size: 19px;
+  font-size: 30px;
   font-weight: 400;
   margin: 24px;
+}
+
+.concerts-info p.details {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
 }
 
 .concerts-info-imgs {
@@ -140,7 +148,7 @@ footer p {
   background-image: url(./images/textbg.jpg);
   background-size: cover;
   font-size: 3rem;
-  color: #ec534270;
+  color: #fa4329;
   -webkit-background-clip: text;
   font-weight: bold;
   font-family: "cocogoose", sans-serif;
@@ -327,6 +335,9 @@ footer p {
 }
 
 footer {
+  color: white;
+  padding: 40px;
+  background-color: #2e2e2e;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -358,10 +369,12 @@ nav .second {
 }
 
 .phone-menu a {
+  color: #545454;
   text-decoration: none;
 }
 
 .phone-menu {
+  color: #545454;
   position: fixed;
   top: 20px;
   left: 20px;
@@ -407,6 +420,14 @@ nav .second {
 }
 
 @media screen and (min-width: 768px) {
+  .greating {
+    display: none;
+  }
+
+  .welcome-section .container {
+    width: 60%;
+  }
+
   .phone-menu {
     display: none;
   }

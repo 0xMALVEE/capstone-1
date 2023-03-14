@@ -61,8 +61,18 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Music Concert] <a name="about-project"></a>
 
+If you're looking to attend a music concert in Paris, you're in for a treat! Paris is home to some of the world's most iconic concert venues, from intimate clubs to grand opera houses. Whether you're a fan of classical music, jazz, rock, or pop, there's a concert in Paris that's sure to suit your taste.
 
-**[Music Concert]** is a...
+Some of the most famous venues in Paris include the Opéra Garnier, a stunning 19th-century opera house that hosts a variety of classical concerts throughout the year, and the Olympia, a legendary music hall that has seen performances by everyone from Edith Piaf to the Beatles.
+
+Other notable venues include the Philharmonie de Paris, a modern concert hall that hosts a diverse range of music events, and the Zénith de Paris, a large arena that has hosted concerts by artists like Beyoncé and Coldplay.
+
+In addition to these iconic venues, there are also numerous smaller clubs and bars throughout the city that offer live music performances. From jazz clubs like the New Morning and Duc des Lombards to rock venues like the Boule Noire and La Maroquinerie, there's no shortage of places to catch a great concert in Paris.
+
+### Live Demo <a name="live-demo"></a>
+
+- Live Demo: [@Live Demo](https://0xmalvee.github.io/capstone-1/)
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -79,6 +89,9 @@ After you're finished please remove all the comments and instructions!
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
+
+- Loom Video: [@Loom Video](https://www.loom.com/share/1cde328af7e64de0a0a106e4efe57046)
+
 
 - **[clean ui]**
 - **[good design]**
@@ -174,7 +187,6 @@ Example:
 > Mention all of the collaborators of this project.
 
 👤 **Author1**
-
 - GitHub: [@githubhandle](https://github.com/0xmalvee)
 - Twitter: [@twitterhandle](https://twitter.com/alveedev)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/0xmalvee)
@@ -215,9 +227,7 @@ If you like this project please give a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-
-I would like to thank all the people that contributed in this project .
+I would like to thank https://www.behance.net/adagio07 for providing the design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

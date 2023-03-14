@@ -116,13 +116,21 @@ footer p {
 }
 
 footer img {
+  margin-right: 20px;
   width: 250px;
 }
 
 .solosist img {
   width: 160px;
   height: 130px;
-  box-shadow: 10px 16px #8888883d;
+  box-shadow: -18px -16px #8888883d;
+}
+
+.see-whole {
+  margin: 40px auto;
+  display: block;
+  color: white;
+  text-align: center;
 }
 
 .main-program ul img {
@@ -140,6 +148,7 @@ footer img {
   margin: 10px auto;
   width: 100px;
   border-radius: 15%;
+  margin-bottom: 40px;
 }
 
 .soloists {
@@ -215,6 +224,9 @@ footer img {
 }
 
 footer {
+  color: white;
+  background-color: #2e2e2e;
+  padding: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -246,10 +258,12 @@ nav .second {
 }
 
 .phone-menu a {
+  color: #545454;
   text-decoration: none;
 }
 
 .phone-menu {
+  color: #545454;
   position: fixed;
   top: 20px;
   left: 20px;
