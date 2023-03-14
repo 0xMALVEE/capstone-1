@@ -1,0 +1,517 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+footer img {
+  width: 250px;
+  margin-right: 40px;
+}
+
+footer p {
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 100;
+}
+
+.welcome-section {
+  text-align: center;
+  background: url("./images/mainbackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-program-heading div {
+  height: 3px;
+  background-color: #ec5242;
+  margin: 10px auto;
+  width: 100px;
+  border-radius: 15%;
+}
+
+.welcome-section .container {
+  width: 100%;
+}
+
+.about-article {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 24px;
+}
+
+.about-text {
+  width: 70%;
+  border: 2px solid rgb(235, 229, 229);
+  background: #fff;
+  margin-top: 24px;
+}
+
+.about-text p {
+  margin: 16px;
+  font-size: 20px;
+  text-align: justify;
+  font-family: "lato", serif;
+  font-weight: 100;
+}
+
+.about-line {
+  height: 2px;
+  width: 20%;
+  background-color: #ec5242;
+  margin-bottom: 12px;
+}
+
+.about-article img {
+  width: 300px;
+}
+
+.welcome-section div {
+  margin: 24px;
+}
+
+.welcome-section .greating {
+  color: #ec5242;
+  font-family: "lato", serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.concerts-info-title {
+  font-family: "cocogoose", sans-serif;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.concerts-info p {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 24px;
+}
+
+.concerts-info p.details {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.concerts-info-imgs {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 12px;
+  width: 100%;
+  gap: 3px;
+}
+
+.concert-img {
+  padding: 60px;
+  background-image: url(./images/past-concert.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-color: #ec5242;
+  background-blend-mode: multiply;
+  background-size: cover;
+  flex-direction: column;
+  color: white;
+}
+
+.concerts-info-logo-line {
+  height: 2px;
+  width: 20%;
+  background-color: #ec5242;
+  margin-bottom: 12px;
+}
+
+.concerts-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 24px;
+}
+
+.welcome-section .title {
+  background-image: url(./images/textbg.jpg);
+  background-size: cover;
+  font-size: 3rem;
+  color: #fa4329;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-family: "cocogoose", sans-serif;
+  line-height: 46px;
+  padding: 16px 0;
+  margin: 0;
+}
+
+.welcome-section .quote {
+  border: 3px solid white;
+  background: #f3efef;
+  margin-top: 24px;
+}
+
+.welcome-section .time {
+  color: rgb(87, 87, 87);
+  font-family: "cocogoose", sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.main-program-heading h2 {
+  text-align: center;
+}
+
+.main-program {
+  background-image: url(./images/pattern_bg.png);
+  background-color: rgb(39 42 50);
+  background-repeat: repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.main-program article {
+  margin: 24px 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-program ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+.main-program ul li {
+  display: flex;
+  gap: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 9px;
+  padding: 3px;
+}
+
+.main-program ul li h3 {
+  color: #ec5242;
+  font-size: 14px;
+  margin-right: 5px;
+  min-width: 120px;
+}
+
+.about-touch p {
+  margin: 0;
+}
+
+.main-program ul li p {
+  font-size: 14px;
+  margin: 12px;
+}
+
+.solosist img {
+  width: 160px;
+  height: 130px;
+  box-shadow: 10px 16px #8888883d;
+}
+
+.main-program ul img {
+  width: 40px;
+  height: 40px;
+}
+
+.solosist-heading h2 {
+  text-align: center;
+}
+
+.solosist-heading div {
+  height: 3px;
+  background-color: #ec5242;
+  margin: 10px auto;
+  width: 100px;
+  border-radius: 15%;
+}
+
+.soloists {
+  margin: 12px;
+}
+
+.solosist p.ins {
+  margin-top: 10px;
+  font-family: "lato", serif;
+  font-weight: 800;
+  color: #ec5242;
+  font-size: 17px;
+}
+
+.solosist p.quote {
+  text-align: justify;
+  font-family: "lato", serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.solosist {
+  display: flex;
+  width: 422px;
+}
+
+.solosists-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.solosist-info {
+  margin-left: 14px;
+}
+
+.partners {
+  margin-top: 24px;
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #d3d3d3;
+}
+
+.partners-header h2 {
+  text-align: center;
+}
+
+.partners-header div {
+  height: 3px;
+  background-color: #ec5242;
+  margin: 10px auto;
+  width: 100px;
+  border-radius: 15%;
+}
+
+.partners-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  list-style-type: none;
+}
+
+.partners-image {
+  width: 150px;
+}
+
+.partners-logo {
+  margin: 10px;
+}
+
+.about-touch {
+  text-align: center;
+  font-size: 14px;
+}
+
+.welcome-section .about {
+  border: 2px solid rgb(235, 229, 229);
+  background: #fff;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 10px;
+  font-size: 14px;
+  text-align: justify;
+  font-family: "lato", serif;
+  font-weight: 100;
+}
+
+footer {
+  color: white;
+  padding: 40px;
+  background-color: #2e2e2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav .first {
+  display: none;
+}
+
+nav .second {
+  display: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .main-program ul {
+    display: flex;
+    gap: 5px;
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .main-program ul li {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+  }
+}
+
+.phone-menu a {
+  color: #545454;
+  text-decoration: none;
+}
+
+.phone-menu {
+  color: #545454;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.mobile-nav ul {
+  list-style-type: none;
+}
+
+.mobile-nav ul li {
+  margin-top: 20px;
+}
+
+.mobile-nav ul li a {
+  text-decoration: none;
+  color: white;
+  color: beige;
+  font-family: "cocogoose", serif;
+  font-size: 22px;
+}
+
+.close-btn {
+  position: fixed;
+  text-decoration: none;
+  color: white;
+  top: 10px;
+  left: 10px;
+}
+
+.m-n-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-nav {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: #272a31;
+}
+
+@media screen and (min-width: 768px) {
+  .greating {
+    display: none;
+  }
+
+  .welcome-section .container {
+    width: 60%;
+  }
+
+  .phone-menu {
+    display: none;
+  }
+
+  nav .first {
+    background-color: #272a31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+  }
+
+  nav .first ul {
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+    list-style-type: none;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+  }
+
+  nav .first a {
+    text-decoration: none;
+    color: #d3d3d3;
+  }
+
+  li.concert a {
+    color: #ec5242 !important;
+    font-weight: 700 !important;
+  }
+
+  nav .first li {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  nav .second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav .second .container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .logo img {
+    width: 110px;
+  }
+
+  nav .second ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  nav .second ul li {
+    margin-left: 30px;
+  }
+
+  nav .second ul a {
+    text-decoration: none;
+    font-family: "lato", serif;
+    color: #272a31;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  li.concert {
+    border: #ec5242 2px solid;
+    padding: 5px 15px;
+  }
+
+  .concerts-info-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 12px;
+    width: 75%;
+  }
+}
